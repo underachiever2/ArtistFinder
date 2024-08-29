@@ -1,0 +1,26 @@
+.friends-list {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  flex-basis: 25%;
+}
+
+.friends-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friends-list li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.friends-list img {
+  border-radius: 50%;
+  border: 2px solid #ff5722;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}

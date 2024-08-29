@@ -1,0 +1,16 @@
+.profile {
+  background-color: #333333; /* Slightly Lighter Grey */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  border: 3px solid #ff5722; /* Light Red Border */
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+}

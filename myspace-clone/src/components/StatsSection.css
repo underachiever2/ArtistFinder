@@ -1,0 +1,22 @@
+.stats-section {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.stats-section h2, h3 {
+  color: #ff5722;
+}
+
+.stats-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.stats-section li {
+  margin: 5px 0;
+}

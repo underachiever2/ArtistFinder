@@ -1,0 +1,13 @@
+.profile {
+  background-color: #3a3a3a; /* Slightly Lighter Grey */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff; /* White */
+}
+
+.profile-picture {
+  border-radius: 50%;
+  border: 3px solid #ff0000; /* Red Border */
+  margin-bottom: 10px;
+}

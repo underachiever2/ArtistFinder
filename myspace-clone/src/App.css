@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #1e1e1e; /* Dark Grey Background */
+  color: #ffffff; /* White Text */
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #d32f2f; /* Red Header */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #ff5722; /* Light Red for Headings */
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+  .friends-list {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
