@@ -1,0 +1,43 @@
+.upload-single-song {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.upload-single-song h2 {
+  color: #ff5722;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #d32f2f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #b71c1c;
+}

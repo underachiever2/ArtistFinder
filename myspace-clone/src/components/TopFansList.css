@@ -3,19 +3,11 @@
   padding: 20px;
   border-radius: 10px;
   color: #ffffff;
-  flex-basis: 25%;
-  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .top-fans-list h2 {
   color: #ff5722;
-}
-
-.top-fans-list ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.top-fans-list li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }

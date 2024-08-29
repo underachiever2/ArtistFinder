@@ -1,31 +1,23 @@
 import React from 'react';
 import './StatsSection.css';
 
-function StatsSection() {
-  // Example stats data - this would come from your backend in a real app
-  const stats = {
-    totalPlays: 1543,
-    totalSongs: 10,
-    recentPlays: [
-      { title: "Song 1", plays: 543 },
-      { title: "Song 2", plays: 324 },
-      { title: "Album 1", plays: 676 },
-    ],
-  };
-
+function StatsSection({ totalPlays = 0, totalSongs = 0, recentPlays = [] }) {
   return (
     <div className="stats-section">
       <h2>Your Music Stats</h2>
-      <p>Total Plays: {stats.totalPlays}</p>
-      <p>Total Songs/Albums: {stats.totalSongs}</p>
+      <p>Total Plays: {totalPlays}</p>
+      <p>Total Songs/Albums: {totalSongs}</p>
+
       <h3>Recent Plays:</h3>
-      <ul>
-        {stats.recentPlays.map((item, index) => (
-          <li key={index}>
-            {item.title}: {item.plays} plays
-          </li>
-        ))}
-      </ul>
+      {recentPlays.length > 0 ? (
+        recentPlays.map((play, index) => (
+          <p key={index}>
+            {play.name}: {play.count} plays
+          </p>
+        ))
+      ) : (
+        <p>No plays yet</p>
+      )}
     </div>
   );
 }
